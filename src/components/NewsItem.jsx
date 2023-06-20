@@ -4,7 +4,7 @@ export class NewsItem extends Component {
   render() {
     let { title, description, imageUrl, newsUrl, author, date } = this.props;
     return (
-      
+
         <div className="card mb-3">
           <img className="card-img-top" src={!imageUrl ? "https://www.outkick.com/wp-content/uploads/Joe-Theismann.jpg" : imageUrl} alt="" height="200px"/>
           <div className="card-body ">
